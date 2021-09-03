@@ -8,7 +8,8 @@ public class Main {
 
     JFrame window = new JFrame();
     window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
+    window.setLocation(400, 100);
+    
     var menu = new MenuScreen(window);
     menu.init();
 
