@@ -38,13 +38,13 @@ public class MenuScreen {
             window.revalidate();
         });
 
-        // piggybankButton.addActionListener( e -> {
-        //     window.getContentPane().removeAll();
-        //     var '' = new PiggyBankSimulator(window);
-        //     ''.init();
-        //     window.pack();
-        //     window.revalidate();
-        // });
+        piggybankButton.addActionListener( e -> {
+            window.getContentPane().removeAll();
+            var piggybank = new PiggyBankSimulator(window);
+            piggybank.init();
+            window.pack();
+            window.revalidate();
+        });
     }
 
 }
