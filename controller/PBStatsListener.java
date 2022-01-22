@@ -12,7 +12,7 @@ public class PBStatsListener implements ActionListener {
     public PBStatsListener(PiggyBankSimulator panel) {
         this.panel = panel;
     }
-
+ 
     @Override
     public void actionPerformed(ActionEvent e) {
         int nickels = 0;

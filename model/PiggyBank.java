@@ -10,7 +10,7 @@ public class PiggyBank {
     public PiggyBank() {
         balance = 0;
     }
-
+ 
     public void enter(Coin c) {
         balance += c.getValue();
         coinHistory.add(c);

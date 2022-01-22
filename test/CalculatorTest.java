@@ -9,7 +9,7 @@ public class CalculatorTest {
         c1.enter(1);
         c1.enter(2);
         c1.add();
-
+ 
         assert c1.getResult() == 3;
 
         c1.multiply();

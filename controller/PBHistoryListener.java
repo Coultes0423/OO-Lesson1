@@ -14,7 +14,7 @@ public class PBHistoryListener implements ActionListener{
     public PBHistoryListener(PiggyBankSimulator panel) {
         this.panel = panel;
     }
-
+ 
     @Override
     public void actionPerformed(ActionEvent e) {
         ArrayList<Coin> history = panel.getPiggyBank().getCoinHistory();

@@ -10,7 +10,7 @@ public class Calculator {
         lastN2 = lastN;
         lastN = n;
     }
-
+ 
     public void add() {
         result = lastN + lastN2;
     }

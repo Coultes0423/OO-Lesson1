@@ -15,7 +15,7 @@ public class ButtonClickListener implements ActionListener {
     public ButtonClickListener(CalculatorSimulator panel) {
         this.panel = panel;
     }
-
+ 
     @Override
     public void actionPerformed(ActionEvent e) { 
         var button = e.getSource();
